@@ -1,12 +1,12 @@
 {
-  "name": "SULA-MD",
+  "name": "SAVAGE-MD",
   "version": "4.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "sula.js",
   "scripts": {
-    "start": "pm2 start sula.js --deep-monitoring --attach --name SulaMd",
-    "stop": "pm2 stop SulaMd",
-    "restart": "pm2 restart SulaMd"
+    "start": "pm2 start sula.js --deep-monitoring --attach --name SavageMd",
+    "stop": "pm2 stop SavageMd",
+    "restart": "pm2 restart SavageMd"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "github:XdKing2/Malvin-Baileys",
